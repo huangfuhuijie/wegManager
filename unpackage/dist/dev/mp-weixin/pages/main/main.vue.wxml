@@ -1,0 +1,1 @@
+<template name="36b09015"><view class="_view 36b09015 content"><view wx:if="{{hasLogin}}" class="_view 36b09015 hello"></view></view></template>
