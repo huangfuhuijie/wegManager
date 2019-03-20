@@ -1,0 +1,2 @@
+<import src="./electric.vue.wxml" />
+    <template is="1e173f95" data="{{ ...$root['0'], $root }}"/>

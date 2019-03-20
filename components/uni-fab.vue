@@ -113,7 +113,7 @@ export default {
 		open() {
 			if(this.type=="water"){
 				uni.navigateTo({
-					url:"../add-page/add-page?msg=water"
+					url:"../add-page/add-page?msg=water&type=add"
 				})
 			}
 		},

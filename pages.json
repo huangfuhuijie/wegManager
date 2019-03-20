@@ -46,7 +46,7 @@
         {
             "path" : "pages/add-page/add-page",
             "style" : {
-				"navigationBarTitleText": "添加"
+				"navigationBarTitleText": "添加/更改"
 			}
         }
     ],

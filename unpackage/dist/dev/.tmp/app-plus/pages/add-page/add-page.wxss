@@ -1,0 +1,10 @@
+
+.picker{
+	width: 100%;
+	height: 100%;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+

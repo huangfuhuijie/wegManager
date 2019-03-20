@@ -21,6 +21,9 @@
 		<view class="btn-row">
 			<button type="primary" class="primary" @tap="okey">添加</button>
 		</view>
+		<view class="btn-row">
+			<button type="warn"  @tap="dele" v-if="type=='change'">删除</button>
+		</view>
 	</view>
 </template>
 
@@ -29,9 +32,10 @@
         mapState
     } from 'vuex'
 	import mInput from '../../components/m-input.vue';
-	import dataBase from '../../dataBase.js';
-	var from_ ;//页面来源
-	
+	import dataBase from '../../dataBase.js';/*
+	var from_ ;//页面来源 来源于水还是电等等
+	var type; //添加还是更改
+	var id;//更改的id*/
 	export default {
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
 		components: {
@@ -39,18 +43,26 @@
 		},
 		onLoad(e){
 			console.log(e.msg);
-			from_ = e.msg;
+			this.from_ = e.msg;
+			this.type = e.type;
+			if(this.type=='change')
+			{
+				this.id = e.id;
+			}
 		},
 		data() {
 			
 			const currentDate = this.getDate({
-            format: true
+				format: true
 			})
 
 			return {
 				date:currentDate,
 				value:"",
 				address:"",
+				type:"",
+				id:"",
+				from_:"",
 			};
 		},
 		methods:{
@@ -77,23 +89,54 @@
 				if(this.hasLogin)
 				{
 					if(this.value.length<0) {
-						uni.showToast({
-							icon: 'none',
-							title: '请输入数值'
-						});
-						return;
+					uni.showToast({
+						icon: 'none',
+						title: '请输入数值'
+					});
+					return;
 					}
 					var data = {
 						date:this.date,
 						data:this.value,
 						address:this.address,
 					}
-					dataBase.storeData(this.userName,data);
+					if(this.type=='add'||this.type==undefined){
+						dataBase.storeData(this.userName,data);
+						uni.showToast({
+							title: '添加成功'
+						});
+						uni.navigateBack({
+						});
+					}else if(this.type=='change'){
+						data.id = this.id;
+						dataBase.changeData(this.userName,data);
+						uni.showToast({
+							title: '修改成功'
+						});
+						uni.navigateBack({
+						});
+					}
+					
+				}else{
+					uni.showModal({
+						title: '未登录',
+						content: '您未登录，需要登录后才能继续',
+					})
+				}
+			},
+			dele(){
+				if(this.hasLogin)
+				{
+					var data = {
+					}
+					data.id = this.id;
+					dataBase.deleteData(this.userName,data);
 					uni.showToast({
-						title: '添加成功'
+						title: '删除成功'
 					});
 					uni.navigateBack({
 					});
+					
 				}else{
 					uni.showModal({
 						title: '未登录',

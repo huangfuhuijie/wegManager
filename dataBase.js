@@ -45,4 +45,6 @@ const deleteData = function(res,data){
 export default{
 	getDataBase,
 	storeData,
+	changeData,
+	deleteData,
 }

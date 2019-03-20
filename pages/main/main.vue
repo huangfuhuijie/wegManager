@@ -34,7 +34,6 @@
 	import uniFab from '@/components/uni-fab.vue';
     import dataBase from '../../dataBase.js';
 	
-
     export default {
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
         onLoad() {
@@ -99,6 +98,9 @@
 		},
 		editAddess(id) {
 			console.log("edit item id:" + id);
+			uni.navigateTo({
+				url:"../add-page/add-page?msg=water&type=change&id="+id,
+			})
 		},
 		addAddess() {
 			console.log("tap add new Address");
