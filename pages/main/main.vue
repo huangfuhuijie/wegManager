@@ -31,7 +31,7 @@
     import {
         mapState
     } from 'vuex'
-	import uniFab from '@/components/uni-fab.vue';
+	import uniFab from '@/components/uni-fab/uni-fab.vue';
     import dataBase from '../../dataBase.js';
 	
     export default {

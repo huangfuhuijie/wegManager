@@ -49,6 +49,19 @@
 			{
 				this.id = e.id;
 			}
+			if(this.type=='add')
+			{
+				var message = dataBase.getMessage(this.userName);
+				if(message.freAddress==undefined||message.freAddress=='')
+				{
+					this.address = "无常用地址"
+				}
+				else
+				{
+					this.address = message.freAddress;
+				}
+				
+			}
 		},
 		data() {
 			

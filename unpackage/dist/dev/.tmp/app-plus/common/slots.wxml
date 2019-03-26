@@ -1,1 +1,5 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/zz-prompt/index.vue.wxml" />
+
+<template name="59e78b55-default-59e78b55-4"><text class="_text 59e78b55">将会在添加时快速添加</text></template>
 
