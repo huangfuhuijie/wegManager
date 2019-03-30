@@ -220,9 +220,41 @@
 }
 
 
+.top-box{
+		float: top;
+		height: 600rpx;
+		background: #75daff;
+}
+.end-box{
+		height: 430rpx;
+}
 .title {
         color: #8f8f94;
-        margin-top: 50rpx;
+        margin-top: 40rpx;
+		margin-left: 30rpx;
+		width: 645rpx;
+		height:70rpx;
+		background: #7aa5fb;
+		text-align: center;
+		line-height: 70rpx;
+		color: #FFF;
+}
+.left-box{
+        color: #8f8f94;
+        margin-top: 40rpx;
+		margin-left: 30rpx;
+		width: 310rpx;
+		height:400rpx;
+		background:#7abafb ;
+		line-height: 65rpx;
+		text-align: center;
+}
+.right-box{
+        color: #8f8f94;
+        margin-top: 40rpx;
+		margin-left: 30rpx;
+		width: 310rpx;
+		height:400rpx;
 }
 .ul {
         font-size: 30rpx;

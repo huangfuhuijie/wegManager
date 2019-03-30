@@ -9,7 +9,25 @@
 		:type="type"
 		@trigger="trigger"
 		></uni-fab>
+		
+		<view class="top-box">
+			<view class="title">使 用 统 计</view>
+			<view style=" display: -webkit-box;">
+				<view class="left-box">
+					<view>据上次用水量</view>
+					<view>{{last_value}}</view>
+					<view @tap="setprice" style="font-weight: bold;">设置  水费</view>
+					<view>{{preprice}}</view>
+					<view>预计水费</view>
+					<view>{{price}}</view>
+				</view>
+				<scroll-view scroll-x="true" scroll-y="true" scroll-left="120" class="right-box">
+					<canvas style="width:1000upx;height:400upx;" canvas-id="canvas"></canvas>
+				</scroll-view>
+			</view>
+		</view>
 		<view class="container">
+			<scroll-view scroll-y="true" scroll-top="120" class="end-box">
 				<view class="address-list">
 					<view class="a-address" v-for="(item,index) in addressList" :key="index">
 						<view class="left-text" @tap="selectTap(item.id)">
@@ -23,7 +41,20 @@
 						<view class="right-edit" @tap="editAddess(item.id)"></view>
 					</view>
 				</view>
+			</scroll-view>
 		</view>
+		
+		<prompt
+		  title="水费"
+		  placeholder=""
+		  defaultValue=""
+		  mainColor="#e74a39"
+		  @confirm="clickPromptConfirm"
+		  @cancel = "cancel"
+		  v-if="promptVisible"
+		>
+		  <!-- 这里放入slot内容-->
+		</prompt>
     </view>
 </template>
 
@@ -32,94 +63,236 @@
         mapState
     } from 'vuex'
 	import uniFab from '@/components/uni-fab/uni-fab.vue';
+	import Prompt from '@/components/zz-prompt/index.vue'
     import dataBase from '../../dataBase.js';
 	
     export default {
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
+		components: {
+			uniFab,
+			Prompt,
+		},
         onLoad() {
-            if (!this.hasLogin) {
-                uni.showModal({
-                    title: '未登录',
-                    content: '您未登录，需要登录后才能继续',
-                    /**
-                     * 如果需要强制登录，不显示取消按钮
-                     */
-                    showCancel: !this.forcedLogin,
-                    success: (res) => {
-                        if (res.confirm) {
+			if (!this.hasLogin) {
+				uni.showModal({
+					title: '未登录',
+					content: '您未登录，需要登录后才能继续',
+					/**
+					 * 如果需要强制登录，不显示取消按钮
+					 */
+					showCancel: !this.forcedLogin,
+					success: (res) => {
+						if (res.confirm) {
 							/**
 							 * 如果需要强制登录，使用reLaunch方式
 							 */
-                            if (this.forcedLogin) {
-                                uni.reLaunch({
-                                    url: '../login/login'
-                                });
-                            } else {
-                                uni.navigateTo({
-                                    url: '../login/login'
-                                });
-                            }
-                        }
-                    }
-                });
-            }
+							if (this.forcedLogin) {
+								uni.reLaunch({
+									url: '../login/login'
+								});
+							} else {
+								uni.navigateTo({
+									url: '../login/login'
+								});
+							}
+						}
+					}
+				});
+			}
+			
         },
 		onShow() {
 			if(this.hasLogin){
 				this.addressList = dataBase.getDataBase(this.userName).reverse();
+				if(this.addressList.length>1)
+				{
+						let before = Number(this.addressList[1].data);
+						let later = Number(this.addressList[0].data);
+						this.last_value = later-before;
+				}
+				let pprice = dataBase.getMessage(this.userName);
+				if(pprice.waterprice!=undefined) 
+				{
+					this.preprice = pprice.waterprice;
+				}
+				this.calprice();
+				
+				var ctx	 = uni.createCanvasContext('canvas');
+				this.drawBorder(ctx);
+				this.drawLine(ctx);
+				ctx.draw();
 			}
 		},
 		 data() {
-        return {
-            horizontal: 'left',
-            vertical: 'bottom',
-            direction: 'horizontal',
-            pattern: {
-                color: '#7A7E83',
-                backgroundColor: '#fff',
-                selectedColor: '#007AFF',
-                buttonColor:"#007AFF"
-            },
-			type:"water",
-			addressList: [{
-				id:1,
-				date:"未登录",
-				data:'请在登陆后使用',
-				address:'未登录',
-			}],
-        };
-    },
-    methods: {
-        trigger(e) {
-			
-        },
-		selectTap(id) {
-			console.log("tap item id:" + JSON.stringify(id));
+			return {
+				horizontal: 'left',
+				vertical: 'bottom',
+				direction: 'horizontal',
+				pattern: {
+					color: '#7A7E83',
+					backgroundColor: '#fff',
+					selectedColor: '#007AFF',
+					buttonColor:"#007AFF"
+				},
+				type:"water",
+				addressList: [{
+					id:1,
+					date:"未登录",
+					data:'请在登陆后使用',
+					address:'未登录',
+				}],
+				last_value:'等待更多数据',
+				preprice:'null',
+				price:'null',
+				promptVisible: false,
+				};
 		},
-		editAddess(id) {
-			console.log("edit item id:" + id);
-			uni.navigateTo({
-				url:"../add-page/add-page?msg=water&type=change&id="+id,
-			})
-		},
-		addAddess() {
-			console.log("tap add new Address");
-		}
+		methods: {
+			trigger(e) {
+				
+			},
+			calprice(){
+				try{
+						let a = Number(this.last_value);
+						let b = Number(this.preprice);
+						let c = a*b;
+						this.price = c.toFixed(2);
+					}catch(e){
+						//TODO handle the exception
+						console.log("计算水费时不为数值");
+					}
+			},
+			selectTap(id) {
+				console.log("tap item id:" + JSON.stringify(id));
+			},
+			editAddess(id) {
+				console.log("edit item id:" + id);
+				uni.navigateTo({
+					url:"../add-page/add-page?msg=water&type=change&id="+id,
+				})
+			},
+			setprice(){
+				if(!this.hasLogin) return ;
+				this.promptVisible = true;
+			},
+			clickPromptConfirm(val) {
+				this.promptVisible = false;
+				var data = {
+					_from:"waterprice",
+					val:val,
+				};
+				dataBase.storeMessage(this.userName,data);
+				this.preprice = val;
+				this.calprice();
+				
+			},
+			cancel(){
+				this.promptVisible = false;
+				return;
+			},
+			drawBorder(ctx){
+				ctx.beginPath();
+				ctx.setLineWidth(2)
+				ctx.moveTo(0,20);
+				ctx.lineTo(0,180);
+				ctx.moveTo(0,180);
+				ctx.lineTo(600,180);
+				ctx.closePath();
+				ctx.stroke();
+			},
+			getData(){
+				let ddata = new Array();
+				let address = new Array();
+				var t = {
+					ddata: Array,
+					address:Array,
+				};
+				let i;
+				for(i=0;i<10&&i<this.addressList.length-1;i++){
+					ddata.push(Number(this.addressList[i].data)-Number(this.addressList[i+1].data));
+					address.push(this.addressList[i].date.substr(5,5));
+				}
+				address.push(this.addressList[i].date.substr(5,5));
+				t.ddata = ddata;
+				t.address = address;
+				return t;
+			},
+			drawLine(ctx){
+				let t = this.getData();
+				var nums = t.ddata.reverse();
+				var adds = t.address.reverse();
+				var max = 0;
+				for(let i=0;i<nums.length;i++){
+					max = max<nums[i]? nums[i]:max;
+				}
+				ctx.fillText(max,0,20);
+				ctx.fillText(max/2,0,105);
+				ctx.fillText(0,0,190);
+				let i;
+				for (i = 0;i < nums.length-1;i ++){
+					//起始坐标
+					var numsY = 180-nums[i]/max*160;
+					var numsX = i*40+15;
+					
+					//终止坐标
+					var numsNY = 180-nums[i+1]/max*160;
+					var numsNX = (i+1)*40+15;
+					ctx.setFontSize(5);
+					ctx.fillText(adds[i],i*40+15,185);
+					ctx.fillText("-"+adds[i+1],i*40+15,190);
+					ctx.beginPath();
+					ctx.moveTo(numsX,numsY);
+					ctx.lineTo(numsNX,numsNY);
+					ctx.lineWidth = 3;
+					ctx.strokeStyle = "#80aa33";
+					ctx.closePath();
+					ctx.stroke();
+				}
+				ctx.fillText(adds[i],i*40+15,185);
+				ctx.fillText("-"+adds[i+1],i*40+15,190);
+			},
     },
-    components: {
-        uniFab
-    }
 
     }
 </script>
 
 <style>
-
+	.top-box{
+		float: top;
+		height: 600upx;
+		background: #75daff;
+	}
+	.end-box{
+		height: 430upx;
+	}
     .title {
         color: #8f8f94;
-        margin-top: 50upx;
+        margin-top: 40upx;
+		margin-left: 30upx;
+		width: 645upx;
+		height:70upx;
+		background: #7aa5fb;
+		text-align: center;
+		line-height: 70upx;
+		color: #FFF;
     }
-
+	.left-box{
+        color: #8f8f94;
+        margin-top: 40upx;
+		margin-left: 30upx;
+		width: 310upx;
+		height:400upx;
+		background:#7abafb ;
+		line-height: 65upx;
+		text-align: center;
+	}
+	.right-box{
+        color: #8f8f94;
+        margin-top: 40upx;
+		margin-left: 30upx;
+		width: 310upx;
+		height:400upx;
+	}
     .ul {
         font-size: 30upx;
         color: #8f8f94;
