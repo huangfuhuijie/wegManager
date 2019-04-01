@@ -957,13 +957,13 @@ __WXML_GLOBAL__.debuginfo_set = __WXML_GLOBAL__.debuginfo_set || {};
 var debugInfo=__WXML_GLOBAL__.debuginfo_set.$gwx || [];
 if ( !__WXML_GLOBAL__.ops_init.$gwx){
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'59e78b55-default-59e78b55-4']);debugInfo.push(['./common/slots.wxml',4,16]);Z([3,'5274ba65']);debugInfo.push(['./components/m-icon/m-icon.vue.wxml',1,15]);Z([3,'69247e80']);debugInfo.push(['./components/m-input.vue.wxml',1,66]);Z([3,'_view 69247e80 m-input-view']);debugInfo.push(['./components/m-input.vue.wxml',1,89]);Z([[2,'&&'],[[2,'&&'],[[7],[3,'clearable_']],[[2,'!'],[[7],[3,'displayable_']]]],[[6],[[7],[3,'value']],[3,'length']]]);debugInfo.push(['./components/m-input.vue.wxml',1,438]);Z([3,'handleProxy']);debugInfo.push(['./components/m-input.vue.wxml',1,577]);Z([3,'#666666']);debugInfo.push(['./components/m-input.vue.wxml',1,536]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'69247e80-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/m-input.vue.wxml',1,649]);Z([[7],[3,'$k']]);debugInfo.push(['./components/m-input.vue.wxml',1,635]);Z([1,'69247e80-1']);debugInfo.push(['./components/m-input.vue.wxml',1,604]);Z(z[1]);debugInfo.push(['./components/m-input.vue.wxml',1,706]);Z([3,'20']);debugInfo.push(['./components/m-input.vue.wxml',1,564]);Z([3,'clear']);debugInfo.push(['./components/m-input.vue.wxml',1,551]);Z([[7],[3,'displayable_']]);debugInfo.push(['./components/m-input.vue.wxml',1,747]);Z(z[5]);debugInfo.push(['./components/m-input.vue.wxml',1,841]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'69247e80-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/m-input.vue.wxml',1,913]);Z(z[8]);debugInfo.push(['./components/m-input.vue.wxml',1,899]);Z([1,'69247e80-2']);debugInfo.push(['./components/m-input.vue.wxml',1,868]);Z(z[1]);debugInfo.push(['./components/m-input.vue.wxml',1,970]);Z(z[11]);debugInfo.push(['./components/m-input.vue.wxml',1,828]);Z([3,'eye']);debugInfo.push(['./components/m-input.vue.wxml',1,817]);Z([3,'9094234a']);debugInfo.push(['./components/uni-fab/uni-fab.vue.wxml',1,15]);Z([3,'3a775af6']);debugInfo.push(['./components/uni-icon/uni-icon.vue.wxml',1,15]);Z([3,'bc86282c']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,50]);Z([[2,'!'],[[7],[3,'visible']]]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,114]);Z(z[5]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,143]);Z([3,'_view data-v-62c941be prompt-box']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,73]);Z(z[8]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,201]);Z([1,'bc86282c-3']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,170]);Z([3,'default']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,225]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[7],[3,'$k']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,613]);Z([[2,'||'],[[7],[3,'$slotdefault']],[1,'default']]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,657]);Z([3,'06c7e155']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,60]);Z([3,'_view 06c7e155 input-group']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,720]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'06c7e155-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,822]);Z(z[8]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,808]);Z([1,'06c7e155-1']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,777]);Z(z[2]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,879]);Z([3,'请输入数值']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,746]);Z([3,'text']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,668]);Z([[7],[3,'value']]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,697]);Z(z[5]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1061]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'06c7e155-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1163]);Z(z[8]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1149]);Z([1,'06c7e155-2']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1118]);Z(z[2]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1220]);Z([3,'请输入地址']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1087]);Z(z[40]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1013]);Z([[7],[3,'address']]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1036]);Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.wxml',2,34]);Z(z[32]);debugInfo.push(['./pages/add-page/add-page.wxml',2,18]);Z([3,'1e173f95']);debugInfo.push(['./pages/electric/electric.vue.wxml',1,15]);Z(z[50]);debugInfo.push(['./pages/electric/electric.wxml',2,34]);Z(z[52]);debugInfo.push(['./pages/electric/electric.wxml',2,18]);Z([3,'1ce033e9']);debugInfo.push(['./pages/gas/gas.vue.wxml',1,15]);Z(z[50]);debugInfo.push(['./pages/gas/gas.wxml',2,34]);Z(z[55]);debugInfo.push(['./pages/gas/gas.wxml',2,18]);Z([3,'7f776b89']);debugInfo.push(['./pages/login/login.vue.wxml',1,60]);Z([3,'_view 7f776b89 input-group']);debugInfo.push(['./pages/login/login.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/login/login.vue.wxml',1,315]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f776b89-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/login/login.vue.wxml',1,417]);Z(z[8]);debugInfo.push(['./pages/login/login.vue.wxml',1,403]);Z([1,'7f776b89-0']);debugInfo.push(['./pages/login/login.vue.wxml',1,372]);Z(z[2]);debugInfo.push(['./pages/login/login.vue.wxml',1,474]);Z([3,'请输入账号']);debugInfo.push(['./pages/login/login.vue.wxml',1,341]);Z(z[40]);debugInfo.push(['./pages/login/login.vue.wxml',1,261]);Z([[7],[3,'account']]);debugInfo.push(['./pages/login/login.vue.wxml',1,290]);Z(z[5]);debugInfo.push(['./pages/login/login.vue.wxml',1,663]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f776b89-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/login/login.vue.wxml',1,765]);Z(z[8]);debugInfo.push(['./pages/login/login.vue.wxml',1,751]);Z([1,'7f776b89-1']);debugInfo.push(['./pages/login/login.vue.wxml',1,720]);Z(z[2]);debugInfo.push(['./pages/login/login.vue.wxml',1,822]);Z([3,'请输入密码']);debugInfo.push(['./pages/login/login.vue.wxml',1,689]);Z([3,'password']);debugInfo.push(['./pages/login/login.vue.wxml',1,608]);Z([[7],[3,'password']]);debugInfo.push(['./pages/login/login.vue.wxml',1,637]);Z(z[50]);debugInfo.push(['./pages/login/login.wxml',2,34]);Z(z[58]);debugInfo.push(['./pages/login/login.wxml',2,18]);Z([3,'36b09015']);debugInfo.push(['./pages/main/main.vue.wxml',1,121]);Z([3,'_view 36b09015 content']);debugInfo.push(['./pages/main/main.vue.wxml',1,144]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,191]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'36b09015-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/main/main.vue.wxml',1,263]);Z(z[8]);debugInfo.push(['./pages/main/main.vue.wxml',1,249]);Z([1,'36b09015-0']);debugInfo.push(['./pages/main/main.vue.wxml',1,218]);Z(z[21]);debugInfo.push(['./pages/main/main.vue.wxml',1,320]);Z([[7],[3,'promptVisible']]);debugInfo.push(['./pages/main/main.vue.wxml',1,2029]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,2009]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,1984]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'36b09015-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/main/main.vue.wxml',1,2107]);Z(z[8]);debugInfo.push(['./pages/main/main.vue.wxml',1,2093]);Z([1,'36b09015-4']);debugInfo.push(['./pages/main/main.vue.wxml',1,2062]);Z(z[23]);debugInfo.push(['./pages/main/main.vue.wxml',1,2164]);Z([3,'#e74a39']);debugInfo.push(['./pages/main/main.vue.wxml',1,1962]);Z([3,'水费']);debugInfo.push(['./pages/main/main.vue.wxml',1,1918]);Z(z[50]);debugInfo.push(['./pages/main/main.wxml',2,34]);Z(z[78]);debugInfo.push(['./pages/main/main.wxml',2,18]);Z([3,'1dafaab1']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,60]);Z(z[5]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,306]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'1dafaab1-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,408]);Z(z[8]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,394]);Z([1,'1dafaab1-0']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,363]);Z(z[2]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,465]);Z([3,'请输入邮箱']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,332]);Z(z[40]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,254]);Z([[7],[3,'email']]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,283]);Z(z[50]);debugInfo.push(['./pages/pwd/pwd.wxml',2,34]);Z(z[96]);debugInfo.push(['./pages/pwd/pwd.wxml',2,18]);Z([3,'68ef31df']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,60]);Z([3,'_view 68ef31df input-group']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,315]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,417]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,403]);Z([1,'68ef31df-0']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,372]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,474]);Z(z[65]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,341]);Z(z[40]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,261]);Z(z[67]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,290]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,670]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,772]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,758]);Z([1,'68ef31df-1']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,727]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,829]);Z(z[73]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,696]);Z(z[74]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,615]);Z(z[75]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,644]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1009]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-2']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1111]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1097]);Z([1,'68ef31df-2']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1066]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1168]);Z(z[102]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1035]);Z(z[40]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,963]);Z(z[104]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,986]);Z(z[50]);debugInfo.push(['./pages/reg/reg.wxml',2,34]);Z(z[107]);debugInfo.push(['./pages/reg/reg.wxml',2,18]);Z([3,'59e78b55']);debugInfo.push(['./pages/user/user.vue.wxml',1,123]);Z([3,'_view 59e78b55 content']);debugInfo.push(['./pages/user/user.vue.wxml',1,146]);Z([3,'_view 59e78b55 center-list']);debugInfo.push(['./pages/user/user.vue.wxml',1,183]);Z([3,'_view 59e78b55 center-list-item border-bottom']);debugInfo.push(['./pages/user/user.vue.wxml',1,224]);Z([3,'#41b49d']);debugInfo.push(['./pages/user/user.vue.wxml',1,313]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,328]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,385]);Z([3,'25']);debugInfo.push(['./pages/user/user.vue.wxml',1,302]);Z([3,'contact']);debugInfo.push(['./pages/user/user.vue.wxml',1,287]);Z([3,'#555']);debugInfo.push(['./pages/user/user.vue.wxml',1,541]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,553]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,610]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,530]);Z([3,'forward']);debugInfo.push(['./pages/user/user.vue.wxml',1,515]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,700]);Z([3,'_view 59e78b55 center-list-item']);debugInfo.push(['./pages/user/user.vue.wxml',1,658]);Z(z[8]);debugInfo.push(['./pages/user/user.vue.wxml',1,758]);Z([1,'59e78b55-0']);debugInfo.push(['./pages/user/user.vue.wxml',1,727]);Z(z[139]);debugInfo.push(['./pages/user/user.vue.wxml',1,809]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-2']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,824]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,881]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,798]);Z([3,'location']);debugInfo.push(['./pages/user/user.vue.wxml',1,782]);Z(z[144]);debugInfo.push(['./pages/user/user.vue.wxml',1,1037]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-3']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,1049]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,1106]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,1026]);Z(z[148]);debugInfo.push(['./pages/user/user.vue.wxml',1,1011]);Z(z[85]);debugInfo.push(['./pages/user/user.vue.wxml',1,1659]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,1639]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,1614]);Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-4']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'59e78b55-default-59e78b55-4']]]);debugInfo.push(['./pages/user/user.vue.wxml',1,1737]);Z(z[8]);debugInfo.push(['./pages/user/user.vue.wxml',1,1723]);Z([1,'59e78b55-3']);debugInfo.push(['./pages/user/user.vue.wxml',1,1692]);Z(z[23]);debugInfo.push(['./pages/user/user.vue.wxml',1,1838]);Z(z[92]);debugInfo.push(['./pages/user/user.vue.wxml',1,1592]);Z([3,'常用地址']);debugInfo.push(['./pages/user/user.vue.wxml',1,1542]);Z(z[50]);debugInfo.push(['./pages/user/user.wxml',2,34]);Z(z[135]);debugInfo.push(['./pages/user/user.wxml',2,18]);})(z);__WXML_GLOBAL__.ops_set.$gwx=z;
+Z([3,'59e78b55-default-59e78b55-4']);debugInfo.push(['./common/slots.wxml',8,16]);Z([3,'5274ba65']);debugInfo.push(['./components/m-icon/m-icon.vue.wxml',1,15]);Z([3,'69247e80']);debugInfo.push(['./components/m-input.vue.wxml',1,66]);Z([3,'_view 69247e80 m-input-view']);debugInfo.push(['./components/m-input.vue.wxml',1,89]);Z([[2,'&&'],[[2,'&&'],[[7],[3,'clearable_']],[[2,'!'],[[7],[3,'displayable_']]]],[[6],[[7],[3,'value']],[3,'length']]]);debugInfo.push(['./components/m-input.vue.wxml',1,438]);Z([3,'handleProxy']);debugInfo.push(['./components/m-input.vue.wxml',1,577]);Z([3,'#666666']);debugInfo.push(['./components/m-input.vue.wxml',1,536]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'69247e80-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/m-input.vue.wxml',1,649]);Z([[7],[3,'$k']]);debugInfo.push(['./components/m-input.vue.wxml',1,635]);Z([1,'69247e80-1']);debugInfo.push(['./components/m-input.vue.wxml',1,604]);Z(z[1]);debugInfo.push(['./components/m-input.vue.wxml',1,706]);Z([3,'20']);debugInfo.push(['./components/m-input.vue.wxml',1,564]);Z([3,'clear']);debugInfo.push(['./components/m-input.vue.wxml',1,551]);Z([[7],[3,'displayable_']]);debugInfo.push(['./components/m-input.vue.wxml',1,747]);Z(z[5]);debugInfo.push(['./components/m-input.vue.wxml',1,841]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'69247e80-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/m-input.vue.wxml',1,913]);Z(z[8]);debugInfo.push(['./components/m-input.vue.wxml',1,899]);Z([1,'69247e80-2']);debugInfo.push(['./components/m-input.vue.wxml',1,868]);Z(z[1]);debugInfo.push(['./components/m-input.vue.wxml',1,970]);Z(z[11]);debugInfo.push(['./components/m-input.vue.wxml',1,828]);Z([3,'eye']);debugInfo.push(['./components/m-input.vue.wxml',1,817]);Z([3,'9094234a']);debugInfo.push(['./components/uni-fab/uni-fab.vue.wxml',1,15]);Z([3,'3a775af6']);debugInfo.push(['./components/uni-icon/uni-icon.vue.wxml',1,15]);Z([3,'bc86282c']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,50]);Z([[2,'!'],[[7],[3,'visible']]]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,114]);Z(z[5]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,143]);Z([3,'_view data-v-62c941be prompt-box']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,73]);Z(z[8]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,201]);Z([1,'bc86282c-3']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,170]);Z([3,'default']);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,225]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[7],[3,'$k']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,613]);Z([[2,'||'],[[7],[3,'$slotdefault']],[1,'default']]);debugInfo.push(['./components/zz-prompt/index.vue.wxml',1,657]);Z([3,'06c7e155']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,60]);Z([3,'_view 06c7e155 input-group']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,720]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'06c7e155-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,822]);Z(z[8]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,808]);Z([1,'06c7e155-1']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,777]);Z(z[2]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,879]);Z([3,'请输入数值']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,746]);Z([3,'text']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,668]);Z([[7],[3,'value']]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,697]);Z(z[5]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1061]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'06c7e155-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1163]);Z(z[8]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1149]);Z([1,'06c7e155-2']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1118]);Z(z[2]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1220]);Z([3,'请输入地址']);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1087]);Z(z[40]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1013]);Z([[7],[3,'address']]);debugInfo.push(['./pages/add-page/add-page.vue.wxml',1,1036]);Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/add-page/add-page.wxml',2,34]);Z(z[32]);debugInfo.push(['./pages/add-page/add-page.wxml',2,18]);Z([3,'1e173f95']);debugInfo.push(['./pages/electric/electric.vue.wxml',1,15]);Z(z[50]);debugInfo.push(['./pages/electric/electric.wxml',2,34]);Z(z[52]);debugInfo.push(['./pages/electric/electric.wxml',2,18]);Z([3,'1ce033e9']);debugInfo.push(['./pages/gas/gas.vue.wxml',1,15]);Z(z[50]);debugInfo.push(['./pages/gas/gas.wxml',2,34]);Z(z[55]);debugInfo.push(['./pages/gas/gas.wxml',2,18]);Z([3,'7f776b89']);debugInfo.push(['./pages/login/login.vue.wxml',1,60]);Z([3,'_view 7f776b89 input-group']);debugInfo.push(['./pages/login/login.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/login/login.vue.wxml',1,315]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f776b89-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/login/login.vue.wxml',1,417]);Z(z[8]);debugInfo.push(['./pages/login/login.vue.wxml',1,403]);Z([1,'7f776b89-0']);debugInfo.push(['./pages/login/login.vue.wxml',1,372]);Z(z[2]);debugInfo.push(['./pages/login/login.vue.wxml',1,474]);Z([3,'请输入账号']);debugInfo.push(['./pages/login/login.vue.wxml',1,341]);Z(z[40]);debugInfo.push(['./pages/login/login.vue.wxml',1,261]);Z([[7],[3,'account']]);debugInfo.push(['./pages/login/login.vue.wxml',1,290]);Z(z[5]);debugInfo.push(['./pages/login/login.vue.wxml',1,663]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7f776b89-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/login/login.vue.wxml',1,765]);Z(z[8]);debugInfo.push(['./pages/login/login.vue.wxml',1,751]);Z([1,'7f776b89-1']);debugInfo.push(['./pages/login/login.vue.wxml',1,720]);Z(z[2]);debugInfo.push(['./pages/login/login.vue.wxml',1,822]);Z([3,'请输入密码']);debugInfo.push(['./pages/login/login.vue.wxml',1,689]);Z([3,'password']);debugInfo.push(['./pages/login/login.vue.wxml',1,608]);Z([[7],[3,'password']]);debugInfo.push(['./pages/login/login.vue.wxml',1,637]);Z(z[50]);debugInfo.push(['./pages/login/login.wxml',2,34]);Z(z[58]);debugInfo.push(['./pages/login/login.wxml',2,18]);Z([3,'36b09015']);debugInfo.push(['./pages/main/main.vue.wxml',1,121]);Z([3,'_view 36b09015 content']);debugInfo.push(['./pages/main/main.vue.wxml',1,144]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,191]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'36b09015-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/main/main.vue.wxml',1,263]);Z(z[8]);debugInfo.push(['./pages/main/main.vue.wxml',1,249]);Z([1,'36b09015-0']);debugInfo.push(['./pages/main/main.vue.wxml',1,218]);Z(z[21]);debugInfo.push(['./pages/main/main.vue.wxml',1,320]);Z([[7],[3,'promptVisible']]);debugInfo.push(['./pages/main/main.vue.wxml',1,2029]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,2009]);Z(z[5]);debugInfo.push(['./pages/main/main.vue.wxml',1,1984]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'36b09015-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/main/main.vue.wxml',1,2107]);Z(z[8]);debugInfo.push(['./pages/main/main.vue.wxml',1,2093]);Z([1,'36b09015-4']);debugInfo.push(['./pages/main/main.vue.wxml',1,2062]);Z(z[23]);debugInfo.push(['./pages/main/main.vue.wxml',1,2164]);Z([3,'#e74a39']);debugInfo.push(['./pages/main/main.vue.wxml',1,1962]);Z([3,'水费']);debugInfo.push(['./pages/main/main.vue.wxml',1,1918]);Z(z[50]);debugInfo.push(['./pages/main/main.wxml',2,34]);Z(z[78]);debugInfo.push(['./pages/main/main.wxml',2,18]);Z([3,'1dafaab1']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,60]);Z(z[5]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,306]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'1dafaab1-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,408]);Z(z[8]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,394]);Z([1,'1dafaab1-0']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,363]);Z(z[2]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,465]);Z([3,'请输入邮箱']);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,332]);Z(z[40]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,254]);Z([[7],[3,'email']]);debugInfo.push(['./pages/pwd/pwd.vue.wxml',1,283]);Z(z[50]);debugInfo.push(['./pages/pwd/pwd.wxml',2,34]);Z(z[96]);debugInfo.push(['./pages/pwd/pwd.wxml',2,18]);Z([3,'68ef31df']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,60]);Z([3,'_view 68ef31df input-group']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,120]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,315]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,417]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,403]);Z([1,'68ef31df-0']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,372]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,474]);Z(z[65]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,341]);Z(z[40]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,261]);Z(z[67]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,290]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,670]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,772]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,758]);Z([1,'68ef31df-1']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,727]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,829]);Z(z[73]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,696]);Z(z[74]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,615]);Z(z[75]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,644]);Z(z[5]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1009]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'68ef31df-2']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1111]);Z(z[8]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1097]);Z([1,'68ef31df-2']);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1066]);Z(z[2]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1168]);Z(z[102]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,1035]);Z(z[40]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,963]);Z(z[104]);debugInfo.push(['./pages/reg/reg.vue.wxml',1,986]);Z(z[50]);debugInfo.push(['./pages/reg/reg.wxml',2,34]);Z(z[107]);debugInfo.push(['./pages/reg/reg.wxml',2,18]);Z([3,'59e78b55']);debugInfo.push(['./pages/user/user.vue.wxml',1,123]);Z([3,'_view 59e78b55 content']);debugInfo.push(['./pages/user/user.vue.wxml',1,146]);Z([3,'_view 59e78b55 center-list']);debugInfo.push(['./pages/user/user.vue.wxml',1,183]);Z([3,'_view 59e78b55 center-list-item border-bottom']);debugInfo.push(['./pages/user/user.vue.wxml',1,224]);Z([3,'#41b49d']);debugInfo.push(['./pages/user/user.vue.wxml',1,313]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-0']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,328]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,385]);Z([3,'25']);debugInfo.push(['./pages/user/user.vue.wxml',1,302]);Z([3,'contact']);debugInfo.push(['./pages/user/user.vue.wxml',1,287]);Z([3,'#555']);debugInfo.push(['./pages/user/user.vue.wxml',1,541]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-1']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,553]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,610]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,530]);Z([3,'forward']);debugInfo.push(['./pages/user/user.vue.wxml',1,515]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,700]);Z([3,'_view 59e78b55 center-list-item']);debugInfo.push(['./pages/user/user.vue.wxml',1,658]);Z(z[8]);debugInfo.push(['./pages/user/user.vue.wxml',1,758]);Z([1,'59e78b55-0']);debugInfo.push(['./pages/user/user.vue.wxml',1,727]);Z(z[139]);debugInfo.push(['./pages/user/user.vue.wxml',1,809]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-2']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,824]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,881]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,798]);Z([3,'location']);debugInfo.push(['./pages/user/user.vue.wxml',1,782]);Z(z[144]);debugInfo.push(['./pages/user/user.vue.wxml',1,1037]);Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-3']]]]],[[8],'$root',[[7],[3,'$root']]]]);debugInfo.push(['./pages/user/user.vue.wxml',1,1049]);Z(z[22]);debugInfo.push(['./pages/user/user.vue.wxml',1,1106]);Z(z[142]);debugInfo.push(['./pages/user/user.vue.wxml',1,1026]);Z(z[148]);debugInfo.push(['./pages/user/user.vue.wxml',1,1011]);Z(z[85]);debugInfo.push(['./pages/user/user.vue.wxml',1,1659]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,1639]);Z(z[5]);debugInfo.push(['./pages/user/user.vue.wxml',1,1614]);Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'59e78b55-4']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'59e78b55-default-59e78b55-4']]]);debugInfo.push(['./pages/user/user.vue.wxml',1,1737]);Z(z[8]);debugInfo.push(['./pages/user/user.vue.wxml',1,1723]);Z([1,'59e78b55-3']);debugInfo.push(['./pages/user/user.vue.wxml',1,1692]);Z(z[23]);debugInfo.push(['./pages/user/user.vue.wxml',1,1838]);Z(z[92]);debugInfo.push(['./pages/user/user.vue.wxml',1,1592]);Z([3,'常用地址']);debugInfo.push(['./pages/user/user.vue.wxml',1,1542]);Z(z[50]);debugInfo.push(['./pages/user/user.wxml',2,34]);Z(z[135]);debugInfo.push(['./pages/user/user.wxml',2,18]);})(z);__WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 __WXML_GLOBAL__.debuginfo_set.$gwx=debugInfo;
 }
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);throw e;}
 }}}()
-var x=['./common/slots.wxml','/components/uni-icon/uni-icon.vue.wxml','/components/zz-prompt/index.vue.wxml','./components/m-icon/m-icon.vue.wxml','./components/m-input.vue.wxml','/components/m-icon/m-icon.vue.wxml','./components/uni-fab/uni-fab.vue.wxml','./components/uni-icon/uni-icon.vue.wxml','./components/zz-prompt/index.vue.wxml','/common/slots.wxml','./pages/add-page/add-page.vue.wxml','/components/m-input.vue.wxml','./pages/add-page/add-page.wxml','./add-page.vue.wxml','./pages/electric/electric.vue.wxml','./pages/electric/electric.wxml','./electric.vue.wxml','./pages/gas/gas.vue.wxml','./pages/gas/gas.wxml','./gas.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/main/main.vue.wxml','/components/uni-fab/uni-fab.vue.wxml','./pages/main/main.wxml','./main.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','./pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','./reg.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','./user.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/components/uni-icon/uni-icon.vue.wxml','/components/zz-prompt/index.vue.wxml','/components/uni-fab/uni-fab.vue.wxml','/components/m-input.vue.wxml','/common/slots.wxml','/components/m-icon/m-icon.vue.wxml','./components/m-icon/m-icon.vue.wxml','./components/m-input.vue.wxml','./components/uni-fab/uni-fab.vue.wxml','./components/uni-icon/uni-icon.vue.wxml','./components/zz-prompt/index.vue.wxml','./pages/add-page/add-page.vue.wxml','./pages/add-page/add-page.wxml','./add-page.vue.wxml','./pages/electric/electric.vue.wxml','./pages/electric/electric.wxml','./electric.vue.wxml','./pages/gas/gas.vue.wxml','./pages/gas/gas.wxml','./gas.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/main/main.vue.wxml','./pages/main/main.wxml','./main.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','./pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','./reg.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','./user.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["59e78b55-default-59e78b55-4"]=function(e,s,r,gg){
 var b=x[0]+':59e78b55-default-59e78b55-4'
 r.wxVkey=b
@@ -982,17 +982,25 @@ var m0=function(e,s,r,gg){
 var oB=e_[x[0]].i
 _ai(oB,x[1],e_,x[0],1,1)
 _ai(oB,x[2],e_,x[0],2,2)
+_ai(oB,x[3],e_,x[0],3,2)
+_ai(oB,x[4],e_,x[0],4,2)
+_ai(oB,x[5],e_,x[0],5,2)
+_ai(oB,x[6],e_,x[0],6,2)
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
 oB.pop()
 oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2]],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["5274ba65"]=function(e,s,r,gg){
-var b=x[3]+':5274ba65'
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5],x[6]],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["5274ba65"]=function(e,s,r,gg){
+var b=x[7]+':5274ba65'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/m-icon/m-icon.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1005,13 +1013,13 @@ return r
 var m1=function(e,s,r,gg){
 return r
 }
-e_[x[3]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
-d_[x[4]]["69247e80"]=function(e,s,r,gg){
-var b=x[4]+':69247e80'
+e_[x[7]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["69247e80"]=function(e,s,r,gg){
+var b=x[8]+':69247e80'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/m-input.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[4]);return}
+if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
 cs.push("./components/m-input.vue.wxml:view:1:78")
@@ -1025,7 +1033,7 @@ var fE=_v()
 _(xC,fE)
 cs.push("./components/m-input.vue.wxml:template:1:521")
 var cF=_o(10,e,s,gg)
-var hG=_gd(x[4],cF,e_,d_)
+var hG=_gd(x[8],cF,e_,d_)
 if(hG){
 var oH=_1(7,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1033,7 +1041,7 @@ fE.wxXCkey=3
 hG(oH,oH,fE,gg)
 gg.f=cur_globalf
 }
-else _w(cF,x[4],1,706)
+else _w(cF,x[8],1,706)
 cs.pop()
 cs.pop()
 }
@@ -1045,7 +1053,7 @@ var cI=_v()
 _(oD,cI)
 cs.push("./components/m-input.vue.wxml:template:1:803")
 var oJ=_o(18,e,s,gg)
-var lK=_gd(x[4],oJ,e_,d_)
+var lK=_gd(x[8],oJ,e_,d_)
 if(lK){
 var aL=_1(15,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1053,7 +1061,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[4],1,970)
+else _w(oJ,x[8],1,970)
 cs.pop()
 cs.pop()
 }
@@ -1069,18 +1077,18 @@ p_[b]=false
 return r
 }
 var m2=function(e,s,r,gg){
-var fE=e_[x[4]].i
-_ai(fE,x[5],e_,x[4],1,1)
+var fE=e_[x[8]].i
+_ai(fE,x[6],e_,x[8],1,1)
 fE.pop()
 return r
 }
-e_[x[4]]={f:m2,j:[],i:[],ti:[x[5]],ic:[]}
-d_[x[6]]={}
-d_[x[6]]["9094234a"]=function(e,s,r,gg){
-var b=x[6]+':9094234a'
+e_[x[8]]={f:m2,j:[],i:[],ti:[x[6]],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["9094234a"]=function(e,s,r,gg){
+var b=x[9]+':9094234a'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-fab/uni-fab.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1093,13 +1101,13 @@ return r
 var m3=function(e,s,r,gg){
 return r
 }
-e_[x[6]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["3a775af6"]=function(e,s,r,gg){
-var b=x[7]+':3a775af6'
+e_[x[9]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["3a775af6"]=function(e,s,r,gg){
+var b=x[10]+':3a775af6'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-icon/uni-icon.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1112,13 +1120,13 @@ return r
 var m4=function(e,s,r,gg){
 return r
 }
-e_[x[7]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-d_[x[8]]["bc86282c"]=function(e,s,r,gg){
-var b=x[8]+':bc86282c'
+e_[x[10]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+d_[x[11]]["bc86282c"]=function(e,s,r,gg){
+var b=x[11]+':bc86282c'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/zz-prompt/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[8]);return}
+if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1131,7 +1139,7 @@ var oD=_v()
 _(xC,oD)
 cs.push("./components/zz-prompt/index.vue.wxml:template:1:599")
 var fE=_o(31,e,s,gg)
-var cF=_gd(x[8],fE,e_,d_)
+var cF=_gd(x[11],fE,e_,d_)
 if(cF){
 var hG=_1(30,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1139,7 +1147,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[8],1,657)
+else _w(fE,x[11],1,657)
 cs.pop()
 cs.pop()
 _(oB,xC)
@@ -1153,11 +1161,11 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[8]]["default"]=function(e,s,r,gg){
-var b=x[8]+':default'
+d_[x[11]]["default"]=function(e,s,r,gg){
+var b=x[11]+':default'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/zz-prompt/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[8]);return}
+if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1168,18 +1176,18 @@ p_[b]=false
 return r
 }
 var m5=function(e,s,r,gg){
-var cI=e_[x[8]].i
-_ai(cI,x[9],e_,x[8],1,1)
+var cI=e_[x[11]].i
+_ai(cI,x[5],e_,x[11],1,1)
 cI.pop()
 return r
 }
-e_[x[8]]={f:m5,j:[],i:[],ti:[x[9]],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["06c7e155"]=function(e,s,r,gg){
-var b=x[10]+':06c7e155'
+e_[x[11]]={f:m5,j:[],i:[],ti:[x[5]],ic:[]}
+d_[x[12]]={}
+d_[x[12]]["06c7e155"]=function(e,s,r,gg){
+var b=x[12]+':06c7e155'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/add-page/add-page.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
 cs.push("./pages/add-page/add-page.vue.wxml:view:1:109")
@@ -1189,7 +1197,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/add-page/add-page.vue.wxml:template:1:654")
 var oD=_o(38,e,s,gg)
-var fE=_gd(x[10],oD,e_,d_)
+var fE=_gd(x[12],oD,e_,d_)
 if(fE){
 var cF=_1(35,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1197,13 +1205,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[10],1,879)
+else _w(oD,x[12],1,879)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/add-page/add-page.vue.wxml:template:1:999")
 var oH=_o(46,e,s,gg)
-var cI=_gd(x[10],oH,e_,d_)
+var cI=_gd(x[12],oH,e_,d_)
 if(cI){
 var oJ=_1(43,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1211,7 +1219,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[10],1,1220)
+else _w(oH,x[12],1,1220)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1223,21 +1231,21 @@ p_[b]=false
 return r
 }
 var m6=function(e,s,r,gg){
-var lK=e_[x[10]].i
-_ai(lK,x[11],e_,x[10],1,1)
+var lK=e_[x[12]].i
+_ai(lK,x[4],e_,x[12],1,1)
 lK.pop()
 return r
 }
-e_[x[10]]={f:m6,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[12]]={}
+e_[x[12]]={f:m6,j:[],i:[],ti:[x[4]],ic:[]}
+d_[x[13]]={}
 var m7=function(e,s,r,gg){
-var tM=e_[x[12]].i
-_ai(tM,x[13],e_,x[12],1,1)
+var tM=e_[x[13]].i
+_ai(tM,x[14],e_,x[13],1,1)
 var eN=_v()
 _(r,eN)
 cs.push("./pages/add-page/add-page.wxml:template:2:6")
 var bO=_o(51,e,s,gg)
-var oP=_gd(x[12],bO,e_,d_)
+var oP=_gd(x[13],bO,e_,d_)
 if(oP){
 var xQ=_1(50,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1245,18 +1253,18 @@ eN.wxXCkey=3
 oP(xQ,xQ,eN,gg)
 gg.f=cur_globalf
 }
-else _w(bO,x[12],2,18)
+else _w(bO,x[13],2,18)
 cs.pop()
 tM.pop()
 return r
 }
-e_[x[12]]={f:m7,j:[],i:[],ti:[x[13]],ic:[]}
-d_[x[14]]={}
-d_[x[14]]["1e173f95"]=function(e,s,r,gg){
-var b=x[14]+':1e173f95'
+e_[x[13]]={f:m7,j:[],i:[],ti:[x[14]],ic:[]}
+d_[x[15]]={}
+d_[x[15]]["1e173f95"]=function(e,s,r,gg){
+var b=x[15]+':1e173f95'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/electric/electric.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[14]);return}
+if(p_[b]){_wl(b,x[15]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1269,16 +1277,16 @@ return r
 var m8=function(e,s,r,gg){
 return r
 }
-e_[x[14]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[15]]={}
+e_[x[15]]={f:m8,j:[],i:[],ti:[],ic:[]}
+d_[x[16]]={}
 var m9=function(e,s,r,gg){
-var cT=e_[x[15]].i
-_ai(cT,x[16],e_,x[15],1,1)
+var cT=e_[x[16]].i
+_ai(cT,x[17],e_,x[16],1,1)
 var hU=_v()
 _(r,hU)
 cs.push("./pages/electric/electric.wxml:template:2:6")
 var oV=_o(54,e,s,gg)
-var cW=_gd(x[15],oV,e_,d_)
+var cW=_gd(x[16],oV,e_,d_)
 if(cW){
 var oX=_1(53,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1286,18 +1294,18 @@ hU.wxXCkey=3
 cW(oX,oX,hU,gg)
 gg.f=cur_globalf
 }
-else _w(oV,x[15],2,18)
+else _w(oV,x[16],2,18)
 cs.pop()
 cT.pop()
 return r
 }
-e_[x[15]]={f:m9,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
-d_[x[17]]["1ce033e9"]=function(e,s,r,gg){
-var b=x[17]+':1ce033e9'
+e_[x[16]]={f:m9,j:[],i:[],ti:[x[17]],ic:[]}
+d_[x[18]]={}
+d_[x[18]]["1ce033e9"]=function(e,s,r,gg){
+var b=x[18]+':1ce033e9'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/gas/gas.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[17]);return}
+if(p_[b]){_wl(b,x[18]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1310,16 +1318,16 @@ return r
 var m10=function(e,s,r,gg){
 return r
 }
-e_[x[17]]={f:m10,j:[],i:[],ti:[],ic:[]}
-d_[x[18]]={}
+e_[x[18]]={f:m10,j:[],i:[],ti:[],ic:[]}
+d_[x[19]]={}
 var m11=function(e,s,r,gg){
-var t1=e_[x[18]].i
-_ai(t1,x[19],e_,x[18],1,1)
+var t1=e_[x[19]].i
+_ai(t1,x[20],e_,x[19],1,1)
 var e2=_v()
 _(r,e2)
 cs.push("./pages/gas/gas.wxml:template:2:6")
 var b3=_o(57,e,s,gg)
-var o4=_gd(x[18],b3,e_,d_)
+var o4=_gd(x[19],b3,e_,d_)
 if(o4){
 var x5=_1(56,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1327,18 +1335,18 @@ e2.wxXCkey=3
 o4(x5,x5,e2,gg)
 gg.f=cur_globalf
 }
-else _w(b3,x[18],2,18)
+else _w(b3,x[19],2,18)
 cs.pop()
 t1.pop()
 return r
 }
-e_[x[18]]={f:m11,j:[],i:[],ti:[x[19]],ic:[]}
-d_[x[20]]={}
-d_[x[20]]["7f776b89"]=function(e,s,r,gg){
-var b=x[20]+':7f776b89'
+e_[x[19]]={f:m11,j:[],i:[],ti:[x[20]],ic:[]}
+d_[x[21]]={}
+d_[x[21]]["7f776b89"]=function(e,s,r,gg){
+var b=x[21]+':7f776b89'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[20]);return}
+if(p_[b]){_wl(b,x[21]);return}
 p_[b]=true
 try{
 cs.push("./pages/login/login.vue.wxml:view:1:109")
@@ -1348,7 +1356,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/login/login.vue.wxml:template:1:247")
 var oD=_o(64,e,s,gg)
-var fE=_gd(x[20],oD,e_,d_)
+var fE=_gd(x[21],oD,e_,d_)
 if(fE){
 var cF=_1(61,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1356,13 +1364,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[20],1,474)
+else _w(oD,x[21],1,474)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/login/login.vue.wxml:template:1:594")
 var oH=_o(72,e,s,gg)
-var cI=_gd(x[20],oH,e_,d_)
+var cI=_gd(x[21],oH,e_,d_)
 if(cI){
 var oJ=_1(69,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1370,7 +1378,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[20],1,822)
+else _w(oH,x[21],1,822)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1382,21 +1390,21 @@ p_[b]=false
 return r
 }
 var m12=function(e,s,r,gg){
-var f7=e_[x[20]].i
-_ai(f7,x[11],e_,x[20],1,1)
+var f7=e_[x[21]].i
+_ai(f7,x[4],e_,x[21],1,1)
 f7.pop()
 return r
 }
-e_[x[20]]={f:m12,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[21]]={}
+e_[x[21]]={f:m12,j:[],i:[],ti:[x[4]],ic:[]}
+d_[x[22]]={}
 var m13=function(e,s,r,gg){
-var h9=e_[x[21]].i
-_ai(h9,x[22],e_,x[21],1,1)
+var h9=e_[x[22]].i
+_ai(h9,x[23],e_,x[22],1,1)
 var o0=_v()
 _(r,o0)
 cs.push("./pages/login/login.wxml:template:2:6")
 var cAB=_o(77,e,s,gg)
-var oBB=_gd(x[21],cAB,e_,d_)
+var oBB=_gd(x[22],cAB,e_,d_)
 if(oBB){
 var lCB=_1(76,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1404,18 +1412,18 @@ o0.wxXCkey=3
 oBB(lCB,lCB,o0,gg)
 gg.f=cur_globalf
 }
-else _w(cAB,x[21],2,18)
+else _w(cAB,x[22],2,18)
 cs.pop()
 h9.pop()
 return r
 }
-e_[x[21]]={f:m13,j:[],i:[],ti:[x[22]],ic:[]}
-d_[x[23]]={}
-d_[x[23]]["36b09015"]=function(e,s,r,gg){
-var b=x[23]+':36b09015'
+e_[x[22]]={f:m13,j:[],i:[],ti:[x[23]],ic:[]}
+d_[x[24]]={}
+d_[x[24]]["36b09015"]=function(e,s,r,gg){
+var b=x[24]+':36b09015'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/main/main.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[23]);return}
+if(p_[b]){_wl(b,x[24]);return}
 p_[b]=true
 try{
 cs.push("./pages/main/main.vue.wxml:view:1:133")
@@ -1425,7 +1433,7 @@ var oD=_v()
 _(oB,oD)
 cs.push("./pages/main/main.vue.wxml:template:1:170")
 var fE=_o(84,e,s,gg)
-var cF=_gd(x[23],fE,e_,d_)
+var cF=_gd(x[24],fE,e_,d_)
 if(cF){
 var hG=_1(81,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1433,7 +1441,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[23],1,320)
+else _w(fE,x[24],1,320)
 cs.pop()
 var xC=_v()
 _(oB,xC)
@@ -1443,7 +1451,7 @@ var oH=_v()
 _(xC,oH)
 cs.push("./pages/main/main.vue.wxml:template:1:1903")
 var cI=_o(91,e,s,gg)
-var oJ=_gd(x[23],cI,e_,d_)
+var oJ=_gd(x[24],cI,e_,d_)
 if(oJ){
 var lK=_1(88,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1451,7 +1459,7 @@ oH.wxXCkey=3
 oJ(lK,lK,oH,gg)
 gg.f=cur_globalf
 }
-else _w(cI,x[23],1,2164)
+else _w(cI,x[24],1,2164)
 cs.pop()
 cs.pop()
 }
@@ -1466,14 +1474,14 @@ p_[b]=false
 return r
 }
 var m14=function(e,s,r,gg){
-var tEB=e_[x[23]].i
-_ai(tEB,x[24],e_,x[23],1,1)
-_ai(tEB,x[2],e_,x[23],1,54)
+var tEB=e_[x[24]].i
+_ai(tEB,x[3],e_,x[24],1,1)
+_ai(tEB,x[2],e_,x[24],1,54)
 tEB.pop()
 tEB.pop()
 return r
 }
-e_[x[23]]={f:m14,j:[],i:[],ti:[x[24],x[2]],ic:[]}
+e_[x[24]]={f:m14,j:[],i:[],ti:[x[3],x[2]],ic:[]}
 d_[x[25]]={}
 var m15=function(e,s,r,gg){
 var bGB=e_[x[25]].i
@@ -1527,11 +1535,11 @@ return r
 }
 var m16=function(e,s,r,gg){
 var hMB=e_[x[27]].i
-_ai(hMB,x[11],e_,x[27],1,1)
+_ai(hMB,x[4],e_,x[27],1,1)
 hMB.pop()
 return r
 }
-e_[x[27]]={f:m16,j:[],i:[],ti:[x[11]],ic:[]}
+e_[x[27]]={f:m16,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[28]]={}
 var m17=function(e,s,r,gg){
 var cOB=e_[x[28]].i
@@ -1618,11 +1626,11 @@ return r
 }
 var m18=function(e,s,r,gg){
 var bUB=e_[x[30]].i
-_ai(bUB,x[11],e_,x[30],1,1)
+_ai(bUB,x[4],e_,x[30],1,1)
 bUB.pop()
 return r
 }
-e_[x[30]]={f:m18,j:[],i:[],ti:[x[11]],ic:[]}
+e_[x[30]]={f:m18,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[31]]={}
 var m19=function(e,s,r,gg){
 var xWB=e_[x[31]].i
@@ -2448,7 +2456,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _uniFab = _interopRequireDefault(__webpack_require__(/*! @/components/uni-fab/uni-fab.vue */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\components\\\\uni-fab\\\\uni-fab.vue\"));\nvar _index = _interopRequireDefault(__webpack_require__(/*! @/components/zz-prompt/index.vue */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\components\\\\zz-prompt\\\\index.vue\"));\nvar _dataBase = _interopRequireDefault(__webpack_require__(/*! ../../dataBase.js */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\dataBase.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n{\n  computed: (0, _vuex.mapState)(['forcedLogin', 'hasLogin', 'userName']),\n  components: {\n    uniFab: _uniFab.default,\n    Prompt: _index.default },\n\n  onLoad: function onLoad() {var _this = this;\n    if (!this.hasLogin) {\n      uni.showModal({\n        title: '未登录',\n        content: '您未登录，需要登录后才能继续',\n        /**\n                                    * 如果需要强制登录，不显示取消按钮\n                                    */\n        showCancel: !this.forcedLogin,\n        success: function success(res) {\n          if (res.confirm) {\n            /**\n                             * 如果需要强制登录，使用reLaunch方式\n                             */\n            if (_this.forcedLogin) {\n              uni.reLaunch({\n                url: '../login/login' });\n\n            } else {\n              uni.navigateTo({\n                url: '../login/login' });\n\n            }\n          }\n        } });\n\n    }\n\n  },\n  onShow: function onShow() {\n    if (this.hasLogin) {\n      this.addressList = _dataBase.default.getDataBase(this.userName).reverse();\n      if (this.addressList.length > 1)\n      {\n        var before = Number(this.addressList[1].data);\n        var later = Number(this.addressList[0].data);\n        this.last_value = later - before;\n      }\n      var pprice = _dataBase.default.getMessage(this.userName);\n      if (pprice.waterprice != undefined)\n      {\n        this.preprice = pprice.waterprice;\n      }\n      this.calprice();\n\n      var ctx = uni.createCanvasContext('canvas');\n      this.drawBorder(ctx);\n      this.drawLine(ctx);\n      ctx.draw();\n    }\n  },\n  data: function data() {\n    return {\n      horizontal: 'left',\n      vertical: 'bottom',\n      direction: 'horizontal',\n      pattern: {\n        color: '#7A7E83',\n        backgroundColor: '#fff',\n        selectedColor: '#007AFF',\n        buttonColor: \"#007AFF\" },\n\n      type: \"water\",\n      addressList: [{\n        id: 1,\n        date: \"未登录\",\n        data: '请在登陆后使用',\n        address: '未登录' }],\n\n      last_value: '等待更多数据',\n      preprice: 'null',\n      price: 'null',\n      promptVisible: false };\n\n  },\n  methods: {\n    trigger: function trigger(e) {\n\n    },\n    calprice: function calprice() {\n      try {\n        var a = Number(this.last_value);\n        var b = Number(this.preprice);\n        var c = a * b;\n        this.price = c.toFixed(2);\n      } catch (e) {\n        //TODO handle the exception\n        console.log(\"计算水费时不为数值\");\n      }\n    },\n    selectTap: function selectTap(id) {\n      console.log(\"tap item id:\" + JSON.stringify(id));\n    },\n    editAddess: function editAddess(id) {\n      console.log(\"edit item id:\" + id);\n      uni.navigateTo({\n        url: \"../add-page/add-page?msg=water&type=change&id=\" + id });\n\n    },\n    setprice: function setprice() {\n      if (!this.hasLogin) return;\n      this.promptVisible = true;\n    },\n    clickPromptConfirm: function clickPromptConfirm(val) {\n      this.promptVisible = false;\n      var data = {\n        _from: \"waterprice\",\n        val: val };\n\n      _dataBase.default.storeMessage(this.userName, data);\n      this.preprice = val;\n      this.calprice();\n\n    },\n    cancel: function cancel() {\n      this.promptVisible = false;\n      return;\n    },\n    drawBorder: function drawBorder(ctx) {\n      ctx.beginPath();\n      ctx.setLineWidth(2);\n      ctx.moveTo(0, 20);\n      ctx.lineTo(0, 180);\n      ctx.moveTo(0, 180);\n      ctx.lineTo(600, 180);\n      ctx.closePath();\n      ctx.stroke();\n    },\n    getData: function getData() {\n      var ddata = new Array();\n      var address = new Array();\n      var t = {\n        ddata: Array,\n        address: Array };\n\n      var i;\n      for (i = 0; i < 10 && i < this.addressList.length - 1; i++) {\n        ddata.push(Number(this.addressList[i].data) - Number(this.addressList[i + 1].data));\n        address.push(this.addressList[i].date.substr(5, 5));\n      }\n      address.push(this.addressList[i].date.substr(5, 5));\n      t.ddata = ddata;\n      t.address = address;\n      return t;\n    },\n    drawLine: function drawLine(ctx) {\n      var t = this.getData();\n      var nums = t.ddata.reverse();\n      var adds = t.address.reverse();\n      var max = 0;\n      for (var _i = 0; _i < nums.length; _i++) {\n        max = max < nums[_i] ? nums[_i] : max;\n      }\n      ctx.fillText(max, 0, 20);\n      ctx.fillText(max / 2, 0, 105);\n      ctx.fillText(0, 0, 190);\n      var i;\n      for (i = 0; i < nums.length - 1; i++) {\n        //起始坐标\n        var numsY = 180 - nums[i] / max * 160;\n        var numsX = i * 40 + 15;\n\n        //终止坐标\n        var numsNY = 180 - nums[i + 1] / max * 160;\n        var numsNX = (i + 1) * 40 + 15;\n        ctx.setFontSize(5);\n        ctx.fillText(adds[i], i * 40 + 15, 185);\n        ctx.fillText(\"-\" + adds[i + 1], i * 40 + 15, 190);\n        ctx.beginPath();\n        ctx.moveTo(numsX, numsY);\n        ctx.lineTo(numsNX, numsNY);\n        ctx.lineWidth = 3;\n        ctx.strokeStyle = \"#80aa33\";\n        ctx.closePath();\n        ctx.stroke();\n      }\n      ctx.fillText(adds[i], i * 40 + 15, 185);\n      ctx.fillText(\"-\" + adds[i + 1], i * 40 + 15, 190);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/main/main.vue?vue&type=script&lang=js&?aacc");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _uniFab = _interopRequireDefault(__webpack_require__(/*! @/components/uni-fab/uni-fab.vue */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\components\\\\uni-fab\\\\uni-fab.vue\"));\nvar _index = _interopRequireDefault(__webpack_require__(/*! @/components/zz-prompt/index.vue */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\components\\\\zz-prompt\\\\index.vue\"));\nvar _dataBase = _interopRequireDefault(__webpack_require__(/*! ../../dataBase.js */ \"C:\\\\Users\\\\hp\\\\Documents\\\\HBuilderProjects\\\\wegManager\\\\dataBase.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n{\n  computed: (0, _vuex.mapState)(['forcedLogin', 'hasLogin', 'userName']),\n  components: {\n    uniFab: _uniFab.default,\n    Prompt: _index.default },\n\n  onLoad: function onLoad() {var _this = this;\n    if (!this.hasLogin) {\n      uni.showModal({\n        title: '未登录',\n        content: '您未登录，需要登录后才能继续',\n        /**\n                                    * 如果需要强制登录，不显示取消按钮\n                                    */\n        showCancel: !this.forcedLogin,\n        success: function success(res) {\n          if (res.confirm) {\n            /**\n                             * 如果需要强制登录，使用reLaunch方式\n                             */\n            if (_this.forcedLogin) {\n              uni.reLaunch({\n                url: '../login/login' });\n\n            } else {\n              uni.navigateTo({\n                url: '../login/login' });\n\n            }\n          }\n        } });\n\n    }\n\n  },\n  onShow: function onShow() {\n    if (this.hasLogin) {\n      this.addressList = _dataBase.default.getDataBase(this.userName).reverse();\n      if (this.addressList.length > 1)\n      {\n        var before = Number(this.addressList[1].data);\n        var later = Number(this.addressList[0].data);\n        this.last_value = later - before;\n      }\n      var pprice = _dataBase.default.getMessage(this.userName);\n      if (pprice.waterprice != undefined)\n      {\n        this.preprice = pprice.waterprice;\n      }\n      this.calprice();\n\n      var ctx = uni.createCanvasContext('canvas');\n      this.drawBorder(ctx);\n      this.drawLine(ctx);\n      ctx.draw();\n    }\n  },\n  data: function data() {\n    return {\n      horizontal: 'left',\n      vertical: 'bottom',\n      direction: 'horizontal',\n      pattern: {\n        color: '#7A7E83',\n        backgroundColor: '#fff',\n        selectedColor: '#007AFF',\n        buttonColor: \"#007AFF\" },\n\n      type: \"water\",\n      addressList: [{\n        id: 1,\n        date: \"未登录\",\n        data: '请在登陆后使用',\n        address: '未登录' }],\n\n      last_value: '等待更多数据',\n      preprice: 'null',\n      price: 'null',\n      promptVisible: false };\n\n  },\n  methods: {\n    trigger: function trigger(e) {\n\n    },\n    calprice: function calprice() {\n      try {\n        var a = Number(this.last_value);\n        var b = Number(this.preprice);\n        var c = a * b;\n        this.price = c.toFixed(2);\n      } catch (e) {\n        //TODO handle the exception\n        console.log(\"计算水费时不为数值\");\n      }\n    },\n    selectTap: function selectTap(id) {\n      console.log(\"tap item id:\" + JSON.stringify(id));\n    },\n    editAddess: function editAddess(id) {\n      console.log(\"edit item id:\" + id);\n      uni.navigateTo({\n        url: \"../add-page/add-page?msg=water&type=change&id=\" + id });\n\n    },\n    setprice: function setprice() {\n      if (!this.hasLogin) return;\n      this.promptVisible = true;\n    },\n    clickPromptConfirm: function clickPromptConfirm(val) {\n      this.promptVisible = false;\n      var data = {\n        _from: \"waterprice\",\n        val: val };\n\n      _dataBase.default.storeMessage(this.userName, data);\n      this.preprice = val;\n      this.calprice();\n\n    },\n    cancel: function cancel() {\n      this.promptVisible = false;\n      return;\n    },\n    drawBorder: function drawBorder(ctx) {\n      ctx.beginPath();\n      ctx.setLineWidth(2);\n      ctx.moveTo(0, 20);\n      ctx.lineTo(0, 180);\n      ctx.moveTo(0, 180);\n      ctx.lineTo(600, 180);\n      ctx.closePath();\n      ctx.stroke();\n    },\n    getData: function getData() {\n      var ddata = new Array();\n      var address = new Array();\n      var t = {\n        ddata: Array,\n        address: Array };\n\n      var i;\n      for (i = 0; i < 10 && i < this.addressList.length - 1; i++) {\n        ddata.push(Number(this.addressList[i].data) - Number(this.addressList[i + 1].data));\n        address.push(this.addressList[i].date.substr(5, 5));\n      }\n      address.push(this.addressList[i].date.substr(5, 5));\n      t.ddata = ddata;\n      t.address = address;\n      return t;\n    },\n    drawLine: function drawLine(ctx) {\n      var t = this.getData();\n      var nums = t.ddata.reverse();\n      var adds = t.address.reverse();\n      var max = 0;\n      for (var _i = 0; _i < nums.length; _i++) {\n        max = max < nums[_i] ? nums[_i] : max;\n      }\n      ctx.fillText(max, 0, 20);\n      ctx.fillText(max / 2, 0, 105);\n      ctx.fillText(0, 0, 190);\n      var i;\n      for (i = 0; i < nums.length - 1; i++) {\n        //起始坐标\n        var numsY = 180 - nums[i] / max * 160;\n        var numsX = i * 40 + 15;\n\n        //终止坐标\n        var numsNY = 180 - nums[i + 1] / max * 160;\n        var numsNX = (i + 1) * 40 + 15;\n        ctx.setFontSize(6);\n        ctx.fillText(adds[i], i * 40 + 15, 185);\n        ctx.fillText(\"-\" + adds[i + 1], i * 40 + 15, 190);\n        ctx.beginPath();\n        ctx.moveTo(numsX, numsY);\n        ctx.lineTo(numsNX, numsNY);\n        ctx.lineWidth = 3;\n        ctx.strokeStyle = \"#80aa33\";\n        ctx.closePath();\n        ctx.stroke();\n      }\n      ctx.fillText(adds[i], i * 40 + 15, 185);\n      ctx.fillText(\"-\" + adds[i + 1], i * 40 + 15, 190);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/main/main.vue?vue&type=script&lang=js&?aacc");
 
 /***/ }),
 

@@ -1,5 +1,9 @@
 <import src="/components/uni-icon/uni-icon.vue.wxml" />
 <import src="/components/zz-prompt/index.vue.wxml" />
+<import src="/components/uni-fab/uni-fab.vue.wxml" />
+<import src="/components/m-input.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/m-icon/m-icon.vue.wxml" />
 
 <template name="59e78b55-default-59e78b55-4"><text class="_text 59e78b55">将会在添加时快速添加</text></template>
 

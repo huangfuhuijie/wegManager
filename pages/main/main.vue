@@ -237,7 +237,7 @@
 					//终止坐标
 					var numsNY = 180-nums[i+1]/max*160;
 					var numsNX = (i+1)*40+15;
-					ctx.setFontSize(5);
+					ctx.setFontSize(6);
 					ctx.fillText(adds[i],i*40+15,185);
 					ctx.fillText("-"+adds[i+1],i*40+15,190);
 					ctx.beginPath();
